@@ -99,7 +99,7 @@ def verify(token):
                                'leader_rank', 'leader_contact', 'leader_email', 'p2_name', 'p2_ign', 'p2_discord_tag',
                                'p2_rank', 'p2_contact', 'p2_email', 'p3_name', 'p3_ign', 'p3_discord_tag', 'p3_rank',
                                'p3_contact', 'p3_email', 'p4_name', 'p4_ign', 'p4_discord_tag', 'p4_rank',
-                               'p4_contact', 'p4_email']
+                               'p4_contact', 'p4_email', 'p5_name', 'p5_ign', 'p5_discord_tag', 'p5_rank', 'p5_contact', 'p5_email']
 
             if all(field in data for field in required_fields):
                 # Append new data to Google Sheets
