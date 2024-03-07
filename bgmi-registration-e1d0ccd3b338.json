@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "bgmi-registration",
+  "private_key_id": "e1d0ccd3b33819a6da65fd09169106e078b0a93a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDDt6VC04bNxjdl\nEdWTgk5WaZ/7OlIv5cTfMPFI7bLL6duJIR45cn4WIt0PscqzPc7psHUdoiSfHBUW\n9866w19XHD7j7XOB3h0NctmGMkJVTq1+ahKlSDksC0MYrcYfqARSPHoqRoW/8Gni\nCXr4+F29jF9aE2ejCC/005RALSh2cIcjuQaY4G0Sl1oJqmDTswPSZU1J4QvE5qog\nR3zp3n3C89w0fsZls5Faw28PW6vDFsWFSFGRxHYGGyLvAAcY3B6OngteBHumZWh6\ny9III0BaK+dFVLXGFgMOw23Ea++dtkkCUb/4RSgFTpApPoWUTJrvVLXDmcRhoMzW\nDCTkODGNAgMBAAECggEAC6wVpo0f8oC6SAROxPvV+TBWcrCxOxsMaTUthqhqa9/Y\nEG8RsuJho6dToL59NMBgaS51ZZ2IapbNqS+BPEEvm+3a0FQWee3JtMYfM/ImY5kM\nHshrsUDD7B0F1OB0OuoVy+PAc2n+Swqm/eyL0XJagNXwz9ntadswpPzDUCqBScLk\nYRELnHRObLQpn5Qgrk2dEjtMpw1DwTou2I1rOjZqafBxApfG0JWLgD9TJwewv0Pl\nTyEDg6d8zV/hxixQU96/IhrRznvWOSsK/iKT4VlFbsWJ+dDdm3Jik7/XJ08rrPYs\nUYFVbHeZ5sKlGaL25JMYz0WRVeyYL93lNXJoYaM+UQKBgQD8GCYfDYlDNLEQmSj4\nTb/edWpPzOXxG8l+DyJ9S9SuMD6MwTwQX447wkcNrC4GNDVuXFWHYvNUrbOmW/FS\nHC4z46AHOwQdWQ1f0+TiruSf9h2ylM2upFlSDuWIKEpkR48ZVP9Fzy8YvBYDI8+g\nfflT4mYOdxJpDtMeJ8NDmggX6QKBgQDGv+VBxKgo+145vKF8Roc2iK0ezcdGYZgK\nx0cjNQCh/uu+I9ufb6w49Cl/uP3INamH9F1pXYzAvpHJ7J7eXrFShnKCuZr2ppnA\nMv+PsXX8pHEwtCPmuPC6bCQNSsLNUUAnzjmgEHUKcr5n3YH8VidvHH8BMiMz3P/Z\nXP5jEleqBQKBgCO7JIQYPhFZgZNRsh3nnz9fsw7Wguz2vEtyx7esrNt3mRYIOYQ0\nlwtfUQTeF7PnaH9Y9QJ4gvbInAMDWyQBPIc8Ry1fLwkd2yhu9y0uDtehYbozHygW\nwVZBKEVxOIIYJm83vereH9XIqvIM/FvKHzHFkCOSuvhLEp9ekW2egnEpAoGAZam0\n6E5iwgvKZ/gwFjSxZ1jETTRvUXYMYr8KiVzMRRDzn2ASMFzcGIn0TEvhLK8eV9fM\njF/45oLUahhqL076nz78hhfQx4fyr5imlubsdl3bNFGA570EDifQzSfHu2RrT7Ey\nUsj4RW7qLJDms5+SLkjCQmdWEGpkSNhDm4O/ac0CgYBAsGeaDatN+/9YeeqbcKrR\nhX4OSLFMcZ7Tl3SUcxOdgoZGzX/qNW+t38URublZ9TbBKqEkLsLY6dNSbURJt+Ot\n4qFIQ0VUthF9WK7Jj/0j8FXsuCvfns1SITJtmY/igp5Lrwzn9PJ1Ut+SQSVGaHW0\n0lBRP49jlvsmtHjTyaJJzQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "bgmiregistration@bgmi-registration.iam.gserviceaccount.com",
+  "client_id": "105387230362666814959",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bgmiregistration%40bgmi-registration.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
