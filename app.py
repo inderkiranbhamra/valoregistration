@@ -114,7 +114,7 @@ def verify(token):
                 worksheet.append_row(new_row)
                 # Remove token from dictionary after verification
                 del email_tokens[email]
-                return jsonify({'message': 'Authentication successful. Data stored into Google Sheets.'})
+                return 'Authentication successful. You are now registered for Valorant in gameathon.'
             else:
                 return jsonify({'message': 'Missing parameters in the verification link.'}), 400
         else:
