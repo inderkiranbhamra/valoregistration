@@ -22,7 +22,7 @@ credentials = ServiceAccountCredentials.from_json_keyfile_name('bgmi-registratio
 gc = gspread.authorize(credentials)
 spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1Y02mNph9lvPE-LmoJ2Ks6BZ4T84_HPF-O1toDIqYe3w/edit#gid=0'
 sh = gc.open_by_url(spreadsheet_url)
-worksheet = sh.get_worksheet(2)  # Assuming you are working with the first sheet
+worksheet = sh.sheet1  # Assuming you are working with the first sheet
 
 # Dictionary to store email verification tokens
 email_tokens = {}
@@ -36,14 +36,19 @@ def generate_token():
 # Function to generate an authentication link with token
 def generate_auth_link(token, data):
     # Construct the authentication link with modified parameters
-    auth_link = f'https://bgmiregistration.vercel.app/verify/{token}?'
+    auth_link = f'https://valoregistration2.vercel.app/verify/{token}?'
     for key, value in data.items():
         auth_link += f'{key}={value}&'
     return auth_link[:-1]
 
 
 # Route to handle form submission and send authentication email
-@app.route('/submit', methods=['POST'])
+@app.route('/')
+def index():
+    return 'API is working'
+
+
+@app.route('/submit', methods=['GET', 'POST'])
 def send_email():
     if request.method == 'POST':
         data = request.get_json()
@@ -74,6 +79,8 @@ def send_email():
         yag.send(to=email, subject=subject, contents=body)
 
         return redirect(url_for('email_sent'))
+    else:
+        return 'Submit endpoint. Use POST method to submit data.'
 
 
 # Route to inform user that email has been sent
