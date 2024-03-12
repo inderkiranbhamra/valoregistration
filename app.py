@@ -78,7 +78,7 @@ def send_email():
         # Send the email
         yag.send(to=email, subject=subject, contents=body)
 
-        return redirect(url_for('email_sent'))
+        return jsonify({'message': 'Email sent successfully.'})
     else:
         return 'Submit endpoint. Use POST method to submit data.'
 
