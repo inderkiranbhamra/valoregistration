@@ -126,7 +126,7 @@ def check_duplicate_ign(data):
         ign_set.add(ign)
 
     for ign in igns:
-        cursor.execute("SELECT * FROM UniqueIGN WHERE ign = %s", (ign,))
+        cursor.execute("SELECT * FROM UniqueIGNVALO WHERE ign = %s", (ign,))
         result = cursor.fetchone()
         if result:
             print("Duplicate IGN detected:", ign)
