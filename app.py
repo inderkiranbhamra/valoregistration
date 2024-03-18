@@ -192,14 +192,14 @@ def verify(token):
 
         try:
             for y in uniqueigns:
-                cursor.execute("INSERT INTO UniqueIGN (ign) VALUES (%s)", (y,))
+                cursor.execute("INSERT INTO UniqueIGNVALO (ign) VALUES (%s)", (y,))
             conn.commit()
 
             # for x in uniqueemails:
             #     cursor.execute("INSERT INTO UniqueEmails2 (email) VALUES (%s)", (x,))
             # conn.commit()
 
-            cursor.execute("INSERT INTO BGMIregistrations (team_name, college_name, leader_name, leader_ign, leader_game_id, leader_id_no, leader_contact, leader_email, p2_name, p2_ign, p2_game_id, p2_id_no, p2_contact, p3_name, p3_ign, p3_game_id, p3_id_no, p3_contact, p4_name, p4_ign, p4_game_id, p4_id_no, p4_contact, p5_name, p5_ign, p5_game_id, p5_id_no, p5_contact) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
+            cursor.execute("INSERT INTO VALOregistrations (team_name, college_name, leader_name, leader_ign, leader_game_id, leader_id_no, leader_contact, leader_email, p2_name, p2_ign, p2_game_id, p2_id_no, p2_contact, p3_name, p3_ign, p3_game_id, p3_id_no, p3_contact, p4_name, p4_ign, p4_game_id, p4_id_no, p4_contact, p5_name, p5_ign, p5_game_id, p5_id_no, p5_contact) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
                            (data['team_name'], data['college_name'], data['leader_name'], data['leader_ign'], data['leader_game_id'], data['leader_id_no'], data['leader_contact'], data['leader_email'], data['p2_name'], data['p2_ign'], data['p2_game_id'], data['p2_id_no'], data['p2_contact'], data['p3_name'], data['p3_ign'], data['p3_game_id'], data['p3_id_no'], data['p3_contact'], data['p4_name'], data['p4_ign'], data['p4_game_id'], data['p4_id_no'], data['p4_contact'], data['p5_name'], data['p5_ign'], data['p5_game_id'], data['p5_id_no'], data['p5_contact']))
             conn.commit()
 
