@@ -11,10 +11,10 @@ CORS(app)
 app.secret_key = 'inderkiran@24'
 
 # MySQL database configuration
-DB_HOST = 'sql6.freesqldatabase.com'
-DB_NAME = 'sql6690830'
-DB_USER = 'sql6690830'
-DB_PASSWORD = 'elmCpSuTy2'
+DB_HOST = '217.21.94.103'
+DB_NAME = 'u813060526_gameathonregis'
+DB_USER = 'u813060526_gameathonregis'
+DB_PASSWORD = '135@Hack'
 
 # Connect to the MySQL database
 conn = mysql.connector.connect(host=DB_HOST, database=DB_NAME, user=DB_USER, password=DB_PASSWORD)
